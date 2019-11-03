@@ -28,11 +28,11 @@ Advanced: meetings.csv holidays.csv flag
 + start, end, day of week, every x days/weeks
 + Example line: 2018-05-02, 2018-12-31, Wednesday, 3
 
-  holidays.csv:
+holidays.csv:
 + date
 + Example line: 2018-12-25
 
-  flags:
+flags:
 + 0 - do normal implementation with holidays
 + 1 - every x weeks
 + 2 - every x days
