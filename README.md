@@ -16,13 +16,13 @@ The Advanced solution gives the option to have a list of holidays that will auto
 
 # Input
 
-Basic (which Advanced can do as well): input.csv
+#### Basic (which Advanced can do as well): input.csv
 
   input.csv:
 + start, end, day of week
 + Example line: 2018-05-02, 2018-12-31, Wednesday
 
-Advanced: meetings.csv holidays.csv flag
+#### Advanced: meetings.csv holidays.csv flag
 
   meetings.csv: 
 + start, end, day of week, every x days/weeks
