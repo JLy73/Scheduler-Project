@@ -18,21 +18,21 @@ The Advanced solution gives the option to have a list of holidays that will auto
 
 Basic (which Advanced can do as well): input.csv
 
-input.csv:
-start, end, day of week
-Example line: 2018-05-02, 2018-12-31, Wednesday
+  input.csv:
++ start, end, day of week
++ Example line: 2018-05-02, 2018-12-31, Wednesday
 
 Advanced: meetings.csv holidays.csv flag
 
-meetings.csv: 
-start, end, day of week, every x days/weeks
-Example line: 2018-05-02, 2018-12-31, Wednesday, 3
+  meetings.csv: 
++ start, end, day of week, every x days/weeks
++ Example line: 2018-05-02, 2018-12-31, Wednesday, 3
 
-holidays.csv:
-date
-Example line: 2018-12-25
+  holidays.csv:
++ date
++ Example line: 2018-12-25
 
-flags:
-0 - do normal implementation with holidays
-1 - every x weeks
-2 - every x days
+  flags:
++ 0 - do normal implementation with holidays
++ 1 - every x weeks
++ 2 - every x days
